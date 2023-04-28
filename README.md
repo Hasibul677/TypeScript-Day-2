@@ -11,7 +11,7 @@
 let myFunction : () => void // no return required.
 
 
-### essay thing
+### Essay function
 let funSing1: (a: number, b: number) => number; // that means it have a retuen type with number
 we can change the parameter property name when we are using this function.
 funSing1 = (x: number, y: number) => {
@@ -19,7 +19,7 @@ funSing1 = (x: number, y: number) => {
 };
 funSing1(5, 6);
 
-### complex function
+### Complex function
 
 let calculation: (x: number, y: number, z: string) => number;
 
@@ -51,4 +51,4 @@ type stringOrNumber = string | number;
 type detailsInfo = { name: string; age: number };
 const myDetails1 = (id: stringOrNumber, details: detailsInfo) => {
   console.log(`my name is ${details.name} and my id is ${id}`);
-};
+};# TypeScript-Day-2
