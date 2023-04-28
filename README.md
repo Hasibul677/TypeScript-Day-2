@@ -17,6 +17,7 @@ we can change the parameter property name when we are using this function.
 funSing1 = (x: number, y: number) => {
   return x * y;
 };
+
 funSing1(5, 6);
 
 ### Complex function
