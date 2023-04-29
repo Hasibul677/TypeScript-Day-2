@@ -55,6 +55,6 @@ const myDetails1 = (id: stringOrNumber, details: detailsInfo) => {
 };# TypeScript-Day-2
 
 
-//Class Type
+### Class Type
 
 1. How to create class with explicit and union types, and how to use class as a class type in a array.
