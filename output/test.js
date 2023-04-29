@@ -93,3 +93,17 @@ calculation = (x, y, z) => {
 calculation(5, 6, "add");
 //
 let user;
+// Class Type
+class Country {
+    constructor(n, c, f) {
+        (this.name = n), (this.code = c), (this.freedom = f);
+    }
+    position() {
+        console.log(`${this.name} is a freedom country. Is code is ${this.code}`);
+    }
+}
+const bangladesh = new Country("Bangladesh", 880, true);
+bangladesh.position(); // we can access any property of class outside of the class
+const contrys = []; // we can use class type 
+contrys.push(bangladesh);
+console.log(contrys);

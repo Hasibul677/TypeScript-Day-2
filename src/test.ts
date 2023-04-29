@@ -152,3 +152,28 @@ let user: (
   id: string | number,
   userinfo: { name: string; age: number }
 ) => void;
+
+// Class Type
+
+class Country {
+  name: string;
+  code: number;
+  freedom: boolean;
+
+  constructor(n: string, c: number, f: boolean) {
+    (this.name = n), (this.code = c), (this.freedom = f);
+  }
+
+  position() {
+    console.log(`${this.name} is a freedom country. Is code is ${this.code}`);
+  }
+}
+
+
+const bangladesh = new Country("Bangladesh", 880, true);
+bangladesh.position() // we can access any property of class outside of the class
+
+const contrys:Country[] = []; // we can use class type 
+
+contrys.push(bangladesh);
+console.log(contrys);
